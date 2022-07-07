@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <title>Hotel booking service</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/font-awesome.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="menu__mobile-btn">
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+        <div class="header__logo-block">
+            <a class="animate__border-bottom" href="#"><img class="header__logo-img" src="images/logo.svg"></a>
+        </div>
+        <div class="menu__mobile" id="top_nav">
+            <div class="header__menu-block">
+                <ul class="menu">
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">Home</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">The hut</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">The area</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">Booking</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">About US</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <ul class="lang__switcher">
+                <li class="lang__switcher-ru"></li>
+            </ul>
+        </div>
+        <a href="#">
+            <button class="grey-button header__button">Book now</button>
+        </a>
+        <div class="clear"></div>
+    </div>
+    <div class="content">
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper__content-item">
+                        <div class="siper__content-title">
+                            Find peace in the Forest
+                        </div>
+                        <div class="siper__content-subtitle">
+                            Come and stay in out hut hotel near Mariager Fjord in Denmark
+                        </div>
+                    </div>
+                    <img src="images/slide_one.png">
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__content-item">
+                        <div class="siper__content-title">
+                            Relax by the sea
+                        </div>
+                        <div class="siper__content-subtitle">
+                            Come and find the place of your dreams
+                        </div>
+                    </div>
+                    <img src="images/slide_two.png">
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__content-item">
+                        <div class="siper__content-title">
+                            Azure pool for you
+                        </div>
+                        <div class="siper__content-subtitle">
+                            Relax and enjoy life
+                        </div>
+                    </div>
+                    <img src="images/slide_three.png">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"><img src="images/arrow-prev.svg"></div>
+            <div class="swiper-button-next"><img src="images/arrow-next.svg"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="swiper__book-block">
+            <button class="grey-button swiper__book-btn">
+                Book now
+            </button>
+            <div class="swiper__book-price">
+                <div class="swiper__book-fix">
+                    <div class="swiper__text-left">
+                        from
+                    </div>
+                    <div class="swuper__book-price">
+                        $ 3.200
+                    </div>
+                    <div class="swiper__text-right">
+                        per night
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__posts">
+            <div class="content__post-single">
+                <div class="single__post-text">
+                    <div class="single__post-title">
+                        The Cabins
+                    </div>
+                    <div class="single__post-desc">
+                        Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.
+                    </div>
+                    <a class="single__post-link">
+                        Read More
+                    </a>
+                </div>
+                <div class="single__post-img">
+                    <img src="images/single_post.png">
+                </div>
+            </div>
+            <div class="content__post-several">
+                <div class="swiper mySwiper swiper__top-margin">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper__slide-fix">
+                            <a href="#" class="post__several-popup-open">
+                                <img src="images/post_one.png">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper__slide-fix">
+                            <a href="#" class="post__several-popup-open">
+                                <img src="images/post_two.png">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper__slide-fix">
+                            <a href="#" class="post__several-popup-open">
+                            <div class="swiper__slide-video">
+                                <i class="fa fa-play swiper__slide-video-play"></i>
+                            </div>
+                                <img src="images/post_three.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="post__several-popup">
+                    <div class="post__several-popup-inner">
+                        <button class="post__several-popup-close">
+                            <i class="fa fa-close"></i>
+                        </button>
+                        <div class="post__several-popup-title">
+                            Post title
+                        </div>
+                        <div class="post__several-popup-img">
+                            <img src="images/post_one.png">
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                        <a class="single__post-link">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content__map">
+                <div class="content__map-img">
+                    <div class="content__map-dot">
+                        <button class="content__map-dot-btn">We Are Here</button>
+                    </div>
+                </div>
+                <div class="content__map-inner">
+                    <div class="content__map-text">
+                        <div class="single__post-title">
+                            The Forest
+                        </div>
+                        <div class="content__map-desc single__post-desc">
+                            Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.
+                        </div>
+                        <a class="single__post-link">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__facilities">
+            <div class="content__facilities-inner">
+                <div class="content__facilities-title">
+                    Facilities
+                </div>
+                <div class="content__facilities-block">
+                    <img src="images/facilities/mini_fridge.svg">
+                    <p>Mini Fridge</p>
+                </div>
+                <div class="content__facilities-block">
+                    <img src="images/facilities/kitchen.svg">
+                    <p>Kitchenette</p>
+                </div>
+                <div class="content__facilities-block">
+                    <img src="images/facilities/coffee_machine.svg">
+                    <p>Coffee machine</p>
+                </div>
+                <div class="content__facilities-block-last content__facilities-block">
+                    <img src="images/facilities/kettle.svg">
+                    <p>Electric tea kettle</p>
+                </div>
+                <div class="content__facilities-block-mid">
+                    <div class="content__facilities-block">
+                        <img src="images/facilities/parking.svg">
+                        <p>Parking</p>
+                    </div>
+                    <div class="content__facilities-block">
+                        <img src="images/facilities/tree.svg">
+                        <p>Breathtaking views</p>
+                    </div>
+                    <div class="content__facilities-block">
+                        <img src="images/facilities/thermometer.svg">
+                        <p>Floor heating</p>
+                    </div>
+                    <div class="content__facilities-block-last content__facilities-block">
+                        <img src="images/facilities/plug.svg">
+                        <p>230V</p>
+                    </div>
+                </div>
+                <div class="content__facilities-block">
+                    <img src="images/facilities/wifi.svg">
+                    <p>Wi-Fi</p>
+                </div>
+                <div class="content__facilities-block">
+                    <img src="images/facilities/shower.svg">
+                    <p>Shower</p>
+                </div>
+                <div class="content__facilities-block">
+                    <img src="images/facilities/toilet.svg">
+                    <p>Flushing toilets</p>
+                </div>
+                <div class="content__facilities-block-last content__facilities-block">
+                    <img src="images/facilities/towels.svg">
+                    <p>Bedding & towels</p>
+                </div>
+            </div>
+        </div>
+        <div class="content__about">
+            <button class="content__about-btn">More about us</button>
+            <div class="content__about-left">
+                <img src="images/about_one.png">
+            </div>
+            <div class="content__about-right">
+                <img src="images/about_two.png">
+            </div>
+        </div>
+        <div class="content__contacts">
+            <div class="content__contacts-inner">
+                <div class="content__contacts-feedback">
+                    <div class="single__post-title">
+                        The Forest
+                    </div>
+                    <div class="content__contacts-address">
+                        Vesterborg, Denmark
+                    </div>
+                    <div class="content__contacts-num">
+                        <p>+123 456 789 000</p>
+                        <p>info@theglasshuts.com</p>
+                        <div class="content__contacts-soc">
+                            <a class="content__contacts-soc-a"><i class="fa fa-instagram"></i></a>
+                            <a class="content__contacts-soc-a"><i class="fa fa-facebook"></i></a>
+                            <a class="content__contacts-soc-a content__contacts-soc-last"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__contacts-book">
+                    <div class="content__contacts-book-inner">
+                        <div>
+                            <img src="images/book_hut.png">
+                        </div>
+                        <div class="content__contacts-block swiper__book-block content__contacts-mobile">
+                            <button class="grey-button swiper__book-btn content__contacts-btn">
+                                Book now
+                            </button>
+                            <div class="swiper__book-price">
+                                <div class="swiper__book-fix content__bg-light-grey">
+                                    <div class="swiper__text-left">
+                                        from
+                                    </div>
+                                    <div class="swuper__book-price">
+                                        $ 3.200
+                                    </div>
+                                    <div class="swiper__text-right">
+                                        per night
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__inner">
+        <div class="footer__left">
+            <div class="footer__left-sub">
+                <div class="footer__left-title">Newsletter</div>
+                <div class="footer__left-input">
+                    <input placeholder="Enter your mail">
+                    <button>
+                        <img src="images/sub_arrow.svg">
+                    </button>
+                </div>
+                <div class="footer__left-input-desc">
+                    Sign up to our newsletter for special things and receive 10% off your next order.
+                </div>
+            </div>
+            <div class="footer__left-copyright">© 2021 The Glass Huts</div>
+        </div>
+        <div class="footer__right">
+            <div class="footer__right-menu">
+                <p>TERMS AND CONDITIONS</p>
+                <p>CENCELLATION POLICY</p>
+                <p>PRIVACY POLICY</p>
+            </div>
+            <div class="footer__right-partner">
+                <img src="images/paypal.svg">
+                <img src="images/master_card.svg">
+                <img src="images/visa.svg">
+                <img src="images/swift.svg">
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 3,
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 3
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 3
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 3
+                },
+                769: {
+                    slidesPerView: 3,
+                    spaceBetween: 3
+                }
+            },
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            direction: "vertical",
+            slidesPerView: 1,
+            spaceBetween: 3,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+    <script>
+        let popupBg = document.querySelector('.post__several-popup');
+        let popup = document.querySelector('.post__several-popup-inner');
+        let openPopupButtons = document.querySelectorAll('.post__several-popup-open');
+        let closePopupButton = document.querySelector('.post__several-popup-close');
+        openPopupButtons.forEach((button) => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                popupBg.classList.add('active');
+                popup.classList.add('active');
+            })
+        });
+        closePopupButton.addEventListener('click',() => {
+            popupBg.classList.remove('active');
+            popup.classList.remove('active');
+        });
+        document.addEventListener('click', (e) => {
+            if(e.target === popupBg) {
+                popupBg.classList.remove('active');
+                popup.classList.remove('active');
+            }
+        });
+    </script>
+    <script>
+        function menuFunction() {
+            var x = document.getElementById("top_nav");
+            if (x.className === "menu__mobile") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu__mobile";
+            }
+        }
+    </script>
+</div>
+</body>
+</html>
