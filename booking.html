@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <title>Hotel booking service</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/secondary_pages.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/font-awesome.css"/>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="menu__mobile-btn">
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+        <div class="header__logo-block">
+            <a class="animate__border-bottom" href="#"><img class="header__logo-img" src="images/logo.svg"></a>
+        </div>
+        <div class="menu__mobile" id="top_nav">
+            <div class="header__menu-block">
+                <ul class="menu">
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">Home</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">The hut</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">The area</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">Booking</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">About US</a></li>
+                    <li class="menu__item"><a class="animate__border-bottom menu__item-a" href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <ul class="lang__switcher">
+                <li class="lang__switcher-ru"></li>
+            </ul>
+        </div>
+        <a href="#">
+            <button class="grey-button header__button">Book now</button>
+        </a>
+        <div class="clear"></div>
+    </div>
+    <div class="content">
+        <div class="section__top">
+            <div class="section__top-bg">
+                <div class="section__top-title">
+                    Booking
+                </div>
+                <div class="section__top-text">
+                    <i class="fa fa-map-marker"></i> Vesterborg, Denmark
+                </div>
+            </div>
+        </div>
+        <div class="section__inner">
+            <div class="section__inner-block">
+                <div class="section__inner-block-middle">
+                    <div class="block__middle-title">Choose Additional Services</div>
+                    <div class="block__middle-options">
+                        <div class="block__middle-options-inner">
+                            <button class="middle__options-btn">
+                            <i class="fa fa-plus"></i>
+                            </button>
+                            <div class="block__middle-options-text">
+                                <div class="block__middle-options-title">Fresh Breakfast for one </div>
+                                <div class="block__middle-options-subtitle">400kr</div>
+                            </div>
+                            <label for="spoiler" class="middle__options-btn middle__options-btn-fix">
+                                <i class="fa fa-arrow-down"></i>
+                            </label>
+                        </div>
+                        <input type="checkbox" id="spoiler">
+                        <div class="block__middle-options-desc">
+                            <p>Classic Dinner</p>
+                            Bread, Coffee, milk, juice, and a selection of spreads + toppings.
+                        </div>
+                    </div>
+                    <div class="block__middle-options">
+                        <div class="block__middle-options-inner">
+                            <button class="middle__options-btn">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                            <div class="block__middle-options-text">
+                                <div class="block__middle-options-title">Fresh Breakfast for two </div>
+                                <div class="block__middle-options-subtitle">500kr</div>
+                            </div>
+                            <label for="spoiler_1" class="middle__options-btn middle__options-btn-fix">
+                                <i class="fa fa-arrow-down"></i>
+                            </label>
+                        </div>
+                        <input type="checkbox" id="spoiler_1">
+                        <div class="block__middle-options-desc">
+                            <p>Classic Dinner</p>
+                            Bread, Coffee, milk, juice, and a selection of spreads + toppings.
+                        </div>
+                    </div>
+                    <div class="block__middle-options">
+                        <div class="block__middle-options-inner">
+                            <button class="middle__options-btn">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                            <div class="block__middle-options-text">
+                                <div class="block__middle-options-title">Classic Dinner for one </div>
+                                <div class="block__middle-options-subtitle">600kr</div>
+                            </div>
+                            <label for="spoiler_2" class="middle__options-btn middle__options-btn-fix">
+                                <i class="fa fa-arrow-down"></i>
+                            </label>
+                        </div>
+                        <input type="checkbox" id="spoiler_2">
+                        <div class="block__middle-options-desc">
+                            <p>Classic Dinner</p>
+                            Bread, Coffee, milk, juice, and a selection of spreads + toppings.
+                        </div>
+                    </div>
+                    <div class="block__middle-options">
+                        <div class="block__middle-options-inner">
+                            <button class="middle__options-btn">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                            <div class="block__middle-options-text">
+                                <div class="block__middle-options-title">Classic Dinner for two </div>
+                                <div class="block__middle-options-subtitle">800kr</div>
+                            </div>
+                            <label for="spoiler_3" class="middle__options-btn middle__options-btn-fix">
+                                <i class="fa fa-arrow-down"></i>
+                            </label>
+                        </div>
+                        <input type="checkbox" id="spoiler_3">
+                        <div class="block__middle-options-desc">
+                            <p>Classic Dinner</p>
+                            Bread, Coffee, milk, juice, and a selection of spreads + toppings.
+                        </div>
+                    </div>
+                    <div class="block__middle-options">
+                        <div class="block__middle-options-inner">
+                            <button class="middle__options-btn">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                            <div class="block__middle-options-text">
+                                <div class="block__middle-options-title">Electric Car Charge </div>
+                                <div class="block__middle-options-subtitle">800kr</div>
+                            </div>
+                            <label for="spoiler_4" class="middle__options-btn middle__options-btn-fix">
+                                <i class="fa fa-arrow-down"></i>
+                            </label>
+                        </div>
+                        <input type="checkbox" id="spoiler_4">
+                        <div class="block__middle-options-desc">
+                            <p>Classic Dinner</p>
+                            Bread, Coffee, milk, juice, and a selection of spreads + toppings.
+                        </div>
+                    </div>
+                    <div class="block__middle-bottom">
+                        <div class="block__middle-title-fix block__middle-title">Hut rules</div>
+                        <p>Check-in:  2:00 PM - 11:00 PM</p>
+                        <p>Checkout: 11:00 AM</p>
+                        <p>Not suitable for children and infants</p>
+                        <p>No smoking</p>
+                        <p>No pets</p>
+                    </div>
+                    <div class="block__middle-bottom">
+                        <div class="block__middle-title-fix block__middle-title">Cancellation policy</div>
+                        <p>Free cancellation until 1:00 PM on Mar 27</p>
+                        <p>After that, cancel before 2:00 PM on Apr 1 and get a 50% refund, minus the first night and service fee.</p>
+                    </div>
+                    <div class="block__middle-bottom">
+                        <div class="block__middle-title-fix block__middle-title">Important Information</div>
+                        <p>You need to hike a steep hill to arrive at the treehouses, it takes approx 20-30 minutes on a trail with stairs and uneven ground.</p>
+                    </div>
+                    <button class="grey-button header__button block__middle-bottom-btn">read FAQ</button>
+                </div>
+                <div class="section__block-right">
+                    <div class="section__block-right-inner">
+                        <div class="section__block-right-price">
+                            <p>3.200 kr</p> / night
+                        </div>
+                        <div class="section__block-right-date">
+                            <div class="section__block-right-in">
+                                <p>Check in</p>
+                                4/29/2021
+                            </div>
+                            <div class="section__block-right-in section__block-right-out">
+                                <p>Check out</p>
+                                4/30/2021
+                            </div>
+                            <div class="section__block-right-in section__block-right-guest">
+                                <p>Guests</p>
+                                <div class="section__block-right-counter">
+                                    <i class="fa fa-plus fa-float-left"></i>
+                                        1
+                                    <i class="fa fa-minus fa-float-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                            <button class="grey-button section__block-right-btn">Book</button>
+                            <div class="section__block-right-options">
+                                <p>3.200kr x 2 nights</p>
+                                    <p class="section__block-p-right">6.400kr</p>
+                                <p>Classic Dinner for one</p>
+                                    <p class="section__block-p-right">600kr</p>
+                                <p>Electric Car Charge</p>
+                                    <p class="section__block-p-right">800kr</p>
+                                <p class="section__p-green">10% discount</p>
+                                    <p class="section__p-green section__block-p-right">-200kr</p>
+                            </div>
+                            <div class="section__block-right-total">
+                                <p>Total</p>
+                                    <p class="section__block-p-right">7.000kr</p>
+                            </div>
+                            <div class="section__block-right-apply">
+                                <input placeholder="Enter your mail">
+                                <button class="grey-button block__right-apply-btn">Apply</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__inner">
+        <div class="footer__left">
+            <div class="footer__left-sub">
+                <div class="footer__left-title">Newsletter</div>
+                <div class="footer__left-input">
+                    <input placeholder="Enter your mail">
+                    <button>
+                        <img src="images/sub_arrow.svg">
+                    </button>
+                </div>
+                <div class="footer__left-input-desc">
+                    Sign up to our newsletter for special things and receive 10% off your next order.
+                </div>
+            </div>
+            <div class="footer__left-copyright">© 2021 The Glass Huts</div>
+        </div>
+        <div class="footer__right">
+            <div class="footer__right-menu">
+                <p>TERMS AND CONDITIONS</p>
+                <p>CENCELLATION POLICY</p>
+                <p>PRIVACY POLICY</p>
+            </div>
+            <div class="footer__right-partner">
+                <img src="images/paypal.svg">
+                <img src="images/master_card.svg">
+                <img src="images/visa.svg">
+                <img src="images/swift.svg">
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        function menuFunction() {
+            var x = document.getElementById("top_nav");
+            if (x.className === "menu__mobile") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu__mobile";
+            }
+        }
+    </script>
+</div>
+</body>
+</html>

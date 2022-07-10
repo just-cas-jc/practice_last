@@ -1,0 +1,298 @@
+.section__top{
+    background: url(../images/book_bg.png);
+    height: 350px;
+    text-align: center;
+}
+.section__top-bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.section__top-title{
+    padding-top: 70px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    color: #ffffff;
+}
+.section__top-text{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+.section__inner{
+    width: 100%;
+    display: inline-block;
+}
+.section__inner-block{
+   margin: 150px 0 150px 150px;
+}
+.block__middle-title{
+    padding-bottom: 25px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #5B6460;
+    border-bottom: 0.7px solid #5B6460;
+}
+.section__inner-block-middle{
+    width: calc(65% - 150px);
+    margin-right: 150px;
+    float: left;
+}
+.block__middle-options{
+    margin-top: 24px;
+    color: #333333;
+    overflow: hidden;
+}
+.block__middle-options-inner{
+    display: inline-block;
+    width: calc(100% - 58px);
+    padding: 14px 29px;
+    background: #E9ECE0;
+}
+.block__middle-options-text{
+    float: left;
+}
+.middle__options-btn{
+    background: #ffffff;
+    padding: 2px 5px;
+    text-align: center;
+    border-radius: 100px;
+    font-weight: 100;
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.middle__options-btn:hover{
+    transform: scale(1.2);
+}
+.middle__options-btn-fix{
+    float: right;
+    margin-right: 0px;
+}
+.block__middle-options-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+.block__middle-options-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+.block__middle-options input, .block__middle-options .block__middle-options-desc  {
+    display: none;
+}
+.block__middle-options :checked ~ .block__middle-options-desc {
+    display: block;
+}
+.block__middle-options-desc {
+    padding: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.block__middle-options-desc p{
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.block__middle-title-fix{
+    margin-top: 100px;
+    font-weight: 600;
+}
+.block__middle-bottom p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+}
+.block__middle-bottom-btn{
+    margin: 100px 0;
+}
+.section__block-right{
+    width: calc(35% - 66px);
+    margin: 0px 32px;
+    float: right;
+    background: #ffffff;
+    border: 1px solid #5B6460;
+}
+.section__block-right-inner{
+    line-height: 45px;
+    padding: 20px;
+    color: #333333;
+}
+.section__block-right-price p{
+    float: left;
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+}
+.section__block-right-date{
+    padding: 20px;
+    border: 1px solid #5B6460;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    min-width: calc(100% - 40px);
+}
+.section__block-right-in{
+    padding: 0 10px;
+    width: calc(33.33% - 21px);
+    float: left;
+    border-right: 1px solid #5B6460;
+}
+.section__block-right-out{
+    border-right: none;
+}
+.section__block-right-guest{
+    border-right: none;
+    border-left: 1px solid #5B6460;
+}
+.section__block-right-in p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+}
+.section__block-right-counter{
+    text-align: center;
+}
+.fa-float-left{
+    float: left;
+}
+.fa-float-right {
+    float: right;
+}
+.section__block-right-btn{
+    width: 100%;
+    margin: 20px 0;
+    padding: 16px 0;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section__block-right-options{
+    display: inline-block;
+    border-bottom: 1px solid #5B6460;
+    margin-bottom: 20px;
+}
+.section__block-right-options p {
+    width: 50%;
+    margin: 0 0 10px 0;
+    float: left;
+}
+.section__block-p-right{
+    width: 50%;
+    text-align: right;
+    float: right;
+}
+.section__p-green{
+    color: #41916D;
+}
+.section__block-right-total{
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #333333;
+}
+.section__block-right-total p {
+    width: 50%;
+    margin: 0 0 20px 0;
+    float: left;
+}
+.section__block-right-apply{
+    height: 50px;
+    width: 100%;
+}
+.block__right-apply-btn{
+    width: 100px;
+    height: 50px;
+    margin-left: -4px;
+    font-weight: 100;
+}
+.section__block-right-apply input{
+    width: calc(100% - 100px);
+    height: 50px;
+    padding: 0;
+    border: 1px solid #5B6460;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1200px){
+
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 1024px){
+    .section__top {
+        height: 300px;
+    }
+    .section__inner-block {
+        margin: 50px 0 50px 50px;
+    }
+    .section__inner-block-middle {
+        width: calc(60% - 40px);
+        margin-right: 40px;
+    }
+    .section__block-right {
+        width: calc(40% - 66px);
+    }
+}
+@media screen and (max-width: 768px){
+    .section__top {
+        height: 200px;
+        margin-top: 70px;
+        background-size: cover;
+    }
+    .section__top-title {
+        padding-top: 40px;
+    }
+    .section__inner-block {
+        margin: 40px 0 40px 40px;
+    }
+    .section__inner-block-middle {
+        width: calc(100% - 40px);
+    }
+    .section__block-right {
+        width: calc(100% - 25px);
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    .section__top {
+        height: 200px;
+        margin-top: 70px;
+        background-size: cover;
+    }
+    .section__top-title {
+        padding-top: 40px;
+    }
+    .section__inner-block {
+        margin: 40px 0 40px 40px;
+    }
+    .section__inner-block-middle {
+        width: calc(100% - 40px);
+    }
+    .section__block-right {
+        width: calc(100% - 25px);
+        margin-bottom: 20px;
+    }
+}
